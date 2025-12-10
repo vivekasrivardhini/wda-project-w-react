@@ -1,0 +1,68 @@
+
+body {
+    background: radial-gradient(circle at top left, #020617, #000000);
+    
+    color: #e6f1ff; 
+    
+    font-family: 'Poppins', sans-serif; 
+    
+    min-height: 100vh;
+    overflow-x: hidden; 
+}
+
+h2 {
+    color: #4dd0ff;
+    text-shadow: 0 0 12px rgba(77, 208, 255, 0.8);
+    animation: glow 3s infinite alternate; 
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #00ffff, 0 0 10px #0099ff;
+    }
+
+    to {
+        text-shadow: 0 0 20px #00ccff, 0 0 40px #00ffff;
+    }
+}
+
+.carousel-inner {
+    overflow: hidden !important; 
+    width: 100% !important; 
+}
+
+.carousel-item {
+    transition: none !important; 
+    width: 100% !important; 
+    height: 400px !important; 
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.navbar { background: linear-gradient(90deg, #001f3f, #002f6c, #001f3f); box-shadow: 0 0 20px rgba(0, 170, 255, 0.5); }
+.navbar-brand { color: #4dd0ff !important; text-shadow: 0 0 10px rgba(77, 208, 255, 0.9); }
+.list-group-item { background: rgba(0, 30, 60, 0.85); color: #d7e9ff; border: 1px solid rgba(77, 208, 255, 0.25); }
+h2 { color: #4dd0ff; text-shadow: 0 0 12px rgba(77, 208, 255, 0.8); }
+
+@media (min-width: 992px) { 
+    .offcanvas-start:not(.showing) {
+        visibility: visible !important; 
+        transform: none !important;    
+        position: static !important;   
+    }
+    .offcanvas {
+        width: 250px !important;
+        border-right: 1px solid rgba(77, 208, 255, 0.4); 
+    }
+    
+    .offcanvas-header {
+        display: none !important; 
+    }
+    
+    .navbar-toggler {
+        display: none !important; 
+    }
+}
