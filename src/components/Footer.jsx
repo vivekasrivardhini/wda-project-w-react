@@ -13,7 +13,7 @@ function Footer() {
       </p>
       
       <p className="mb-0">
-        &copy; {currentYear} Entertainment Dashboard | All Rights Reserved. | Created for Viva Presentation.
+        &copy; {currentYear} Entertainment Dashboard | All Rights Reserved. | Created by WebWise.
       </p>
     </footer>
   );
